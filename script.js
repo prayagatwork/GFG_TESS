@@ -3,7 +3,7 @@ function checkPassword() {
     const message = document.getElementById('message');
     const funElement = document.getElementById('funElement');
 
-    if (password === "SECRET") {
+    if (password === "SHCRET") {
         message.style.color = 'green';
         message.textContent = "Access Granted!";
         funElement.textContent = "🎉 Woohoo! You got it!";
